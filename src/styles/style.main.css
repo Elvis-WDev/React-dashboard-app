@@ -1,0 +1,76 @@
+/* Flatpick styles */
+.flatpickr-day.selected {
+    background-color: #6366F1 !important;
+    color: #FFFFFF;
+    border: 1px solid #6366F1 !important;
+}
+
+.flatpickr-day:hover {
+    background-color: #6366F1 !important;
+    color: #FFFFFF;
+}
+
+.dark-mode .flatpickr-day.selected {
+    background-color: #6366F1 !important;
+    color: #FFFFFF;
+    border: 1px solid #6366F1 !important;
+
+}
+
+.dark-mode .flatpickr-day:hover {
+    background-color: #555555 !important;
+    color: #FFFFFF;
+    border: 1px solid #555555 !important;
+}
+
+.flatpickr-day.startRange {
+    background-color: #6366F1 !important;
+    color: #000000;
+    border: 1px solid #6366F1 !important;
+    box-shadow: 0 0 1px #6366F1 !important;
+}
+
+.flatpickr-day.endRange {
+    background-color: #6366F1 !important;
+    color: #000000;
+    border: 1px solid #6366F1 !important;
+    box-shadow: 0 0 1px #6366F1 !important;
+
+}
+
+.flatpickr-calendar .flatpickr-next-month:hover svg {
+    fill: #6366F1 !important;
+}
+
+.flatpickr-calendar .flatpickr-prev-month:hover svg {
+    fill: #6366F1 !important;
+}
+
+/* Scroll style */
+
+/* Estilos para Light mode */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #cbd5e1;
+    /* Color para light mode */
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #94a3b8;
+    /* Color para el hover en light mode */
+}
+
+/* Estilos para dark mode */
+.dark ::-webkit-scrollbar-thumb {
+    background-color: #4b5563;
+    /* Color para dark mode */
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+    background-color: #6b7280;
+    /* Color para el hover en dark mode */
+}
